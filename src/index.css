@@ -1,0 +1,7 @@
+@import "tailwindcss";
+@tailwind utilities;
+/* You can add your global styles here */
+body {
+  /* Optional: Add a smooth transition for background and text color */
+  
+}
