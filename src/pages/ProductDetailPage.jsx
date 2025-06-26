@@ -15,7 +15,7 @@ const ProductDetailPage = ({
     <div className="max-w-7xl mx-auto px-4 py-8 sm:px-6 lg:px-8">
       <button
         onClick={() => setCurrentView('products')}
-        className="flex items-center text-blue-600 hover:text-blue-700 mb-6"
+        className="flex items-center text-blue-600 hover:text-blue-700 mb-6 cursor-pointer transition-colors"
       >
         <ChevronLeft className="w-5 h-5 mr-1" />
         Back to Products
@@ -128,7 +128,7 @@ const ProductDetailPage = ({
 
           <button
             onClick={() => addToCart(selectedProduct)}
-            className="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 px-6 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105"
+            className="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 px-6 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 cursor-pointer"
           >
             Add to Cart - ${selectedProduct.price}
           </button>

@@ -17,9 +17,10 @@ const Header = ({
         <div className="flex items-center">
           <button
             onClick={() => setCurrentView('home')}
-            className="text-2xl font-bold text-gray-900 hover:text-blue-600 transition-colors flex  items-center "
+            className="text-2xl font-bold text-gray-900 hover:text-blue-600 transition-colors flex items-center cursor-pointer"
           >
-            <img src="https://i.pinimg.com/236x/6e/8a/94/6e8a941befa048cd727857b9e13fe6c5.jpg?nii=t" alt="" width={"60px"} className='mb-2.5 mr-2'/> <span className='mr-3'>Aly Motki Bubu's Store</span>
+            <img src="https://i.pinimg.com/236x/6e/8a/94/6e8a941befa048cd727857b9e13fe6c5.jpg?nii=t" alt="" width={"60px"} className='mb-2.5 mr-2'/> 
+            <span className='mr-3'>Aly Motki Bubu's Store</span>
           </button>
         </div>
 
@@ -58,7 +59,7 @@ const Header = ({
             onClick={() => setIsCartOpen(true)}
             className="relative p-2 text-gray-700 hover:text-blue-600 transition-colors"
           >
-            <ShoppingCart className="w-6 h-6" />
+            <ShoppingCart className="w-6 h-6 cursor-pointer"/>
             {cartItemCount > 0 && (
               <span className="absolute -top-1 -right-1 bg-blue-600 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">
                 {cartItemCount}

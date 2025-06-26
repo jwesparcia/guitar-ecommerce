@@ -9,7 +9,7 @@ const HeroSection = ({ setCurrentView }) => (
             Guitar
           </span>
         </h1>
-        <p className="text-xl mb-8 text-gray-300 max-w-2xl mx-auto ">
+        <p className="text-xl mb-8 text-gray-100 max-w-2xl mx-auto ">
           EDDIE VAN HALEN LANG MALAKAS!!!!
         </p>
         <button
