@@ -1,4 +1,3 @@
-// src/GuitarEcommerce.jsx
 import React, { useState } from 'react';
 import guitars, { categories } from './data/guitars';
 import Header from './components/Header';

@@ -1,5 +1,3 @@
-// src/components/CartSidebar.jsx
-import React from 'react';
 import { X, Plus, Minus } from 'lucide-react';
 
 const CartSidebar = ({

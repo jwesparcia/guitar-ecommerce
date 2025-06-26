@@ -1,5 +1,3 @@
-// src/pages/ProductsPage.jsx
-import React from 'react';
 import { Filter } from 'lucide-react';
 import ProductCard from '../components/ProductCard'; // Import ProductCard
 

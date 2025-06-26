@@ -1,5 +1,3 @@
-// src/components/MobileMenu.jsx
-import React from 'react';
 import { X } from 'lucide-react';
 
 const MobileMenu = ({

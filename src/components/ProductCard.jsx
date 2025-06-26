@@ -1,5 +1,3 @@
-// src/components/ProductCard.jsx
-import React from 'react';
 import { Star, Heart } from 'lucide-react';
 
 const ProductCard = ({ guitar, toggleWishlist, wishlist, setSelectedProduct, setCurrentView, setCurrentImageIndex }) => (
@@ -55,7 +53,7 @@ const ProductCard = ({ guitar, toggleWishlist, wishlist, setSelectedProduct, set
           View Details
         </button>
         <button
-          onClick={() => addToCart(guitar)} // addToCart needs to be passed down or managed in parent
+          onClick={() => addToCart(guitar)} // addToCart kailangan sa parent component
           className="flex-1 bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded-lg font-medium transition-all duration-300 transform hover:scale-105"
         >
           Add to Cart

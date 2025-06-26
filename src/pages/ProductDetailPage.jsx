@@ -1,5 +1,3 @@
-// src/pages/ProductDetailPage.jsx
-import React from 'react';
 import { Star, Heart, ChevronLeft, ChevronRight } from 'lucide-react';
 
 const ProductDetailPage = ({

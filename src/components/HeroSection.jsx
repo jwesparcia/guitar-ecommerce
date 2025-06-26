@@ -1,6 +1,3 @@
-// src/components/HeroSection.jsx
-import React from 'react';
-
 const HeroSection = ({ setCurrentView }) => (
   <section className="relative bg-[url(https://wallpapers.com/images/hd/eddie-van-halen-striped-frankenstrat-use5wqsvcmyi614a.jpg)] text-white">
     <div className="absolute inset-0 bg-black opacity-40" />
@@ -13,7 +10,7 @@ const HeroSection = ({ setCurrentView }) => (
           </span>
         </h1>
         <p className="text-xl mb-8 text-gray-300 max-w-2xl mx-auto ">
-          Discover premium guitars from world-renowned brands. From electric to acoustic, find the instrument that speaks to your soul.
+          EDDIE VAN HALEN LANG MALAKAS!!!!
         </p>
         <button
           onClick={() => setCurrentView('products')}

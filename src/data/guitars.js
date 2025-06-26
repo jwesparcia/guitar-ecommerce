@@ -1,4 +1,4 @@
-// src/data/guitars.js
+
 const guitars = [
   {
     id: 1,
