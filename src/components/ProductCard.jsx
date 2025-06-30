@@ -68,7 +68,7 @@ const ProductCard = ({ guitar, toggleWishlist, wishlist, setSelectedProduct, set
         </button>
         <button
           onClick={() => addToCart(guitar)} // addToCart kailangan sa parent component
-          className="flex-1 bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded-lg font-medium transition-all duration-300 transform hover:scale-105 cursor-pointer"
+          className="flex-1 bg-blue-600 hover:bg-red-700 text-white py-2 px-4 rounded-lg font-medium transition-all duration-300 transform hover:scale-105 cursor-pointer"
         >
           Add to Cart
         </button>

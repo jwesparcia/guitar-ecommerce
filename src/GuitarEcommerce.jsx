@@ -6,6 +6,7 @@ import CartSidebar from './components/CartSidebar';
 import HomePage from './pages/HomePage';
 import ProductsPage from './pages/ProductsPage';
 import ProductDetailPage from './pages/ProductDetailPage';
+import {Route, Routes} from 'react-router-dom';
 
 const GuitarEcommerce = () => {
   const [currentView, setCurrentView] = useState('home');
@@ -61,7 +62,9 @@ const GuitarEcommerce = () => {
   const cartItemCount = cartItems.reduce((sum, item) => sum + item.quantity, 0);
 
   return (
-    <div className="min-h-screen bg-white">
+    
+      <div className="min-h-screen bg-white">
+        
       <Header
         categories={categories}
         selectedCategory={selectedCategory}
@@ -124,7 +127,10 @@ const GuitarEcommerce = () => {
           addToCart={addToCart}
         />
       )}
+
+      
     </div>
+    
   );
 };
 
